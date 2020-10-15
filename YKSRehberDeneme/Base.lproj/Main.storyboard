@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,11 +21,11 @@
                                 <rect key="frame" x="20" y="313" width="374" height="270"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="342" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="va6-z1-Hj4">
-                                        <rect key="frame" x="10" y="117.5" width="60" height="35"/>
+                                        <rect key="frame" x="10" y="120" width="60" height="30.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="wEA-7y-mxa"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="29"/>
+                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="25"/>
                                         <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="0.82852632705479456" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -55,7 +57,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GÜN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzr-6U-2iZ">
-                                        <rect key="frame" x="21.5" y="162.5" width="37" height="21"/>
+                                        <rect key="frame" x="21.5" y="160.5" width="37" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -99,7 +101,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="17O-C6-peN" secondAttribute="bottom" constant="20" id="0xL-GJ-mzz"/>
                                     <constraint firstItem="bsI-e2-sRx" firstAttribute="centerX" secondItem="kYZ-d5-9FU" secondAttribute="centerX" id="24F-MD-cLN"/>
@@ -133,20 +135,20 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YKS Geri Sayım" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nj3-nD-7UO">
-                                <rect key="frame" x="115" y="54" width="184" height="31.5"/>
+                                <rect key="frame" x="115.5" y="54" width="183.5" height="31.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O gün üzülmemek için bugün çalış!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9E-8Q-gMV">
-                                <rect key="frame" x="74" y="95.5" width="266" height="21"/>
+                                <rect key="frame" x="75" y="95.5" width="264.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionmark.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="nPe-jR-EOZ">
                                 <rect key="frame" x="364" y="44.5" width="50" height="49"/>
-                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="QKd-9E-zBm"/>
                                     <constraint firstAttribute="height" constant="50" id="VeA-mY-Eqj"/>
@@ -157,14 +159,26 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Sb-kA-adg">
                                         <rect key="frame" x="40" y="5" width="64" height="64"/>
-                                        <state key="normal" image="test"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="OWo-ug-Vin"/>
+                                            <constraint firstAttribute="width" constant="64" id="sWx-Q6-DBd"/>
+                                        </constraints>
+                                        <state key="normal" image="Image"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJ6-hi-ZH2">
                                         <rect key="frame" x="175" y="5" width="64" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="41j-3J-w4b"/>
+                                            <constraint firstAttribute="width" constant="64" id="R4r-tV-lGS"/>
+                                        </constraints>
                                         <state key="normal" image="desk"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVY-C9-cKv">
                                         <rect key="frame" x="310" y="5" width="64" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="JJ5-d7-5Za"/>
+                                            <constraint firstAttribute="width" constant="64" id="gEl-pO-yHq"/>
+                                        </constraints>
                                         <state key="normal" image="vitaminmenu"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Egzersiz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipy-Ym-gIn">
@@ -186,7 +200,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="XlC-yG-chd" firstAttribute="centerX" secondItem="oJ6-hi-ZH2" secondAttribute="centerX" id="EAE-zc-INM"/>
                                     <constraint firstItem="oJ6-hi-ZH2" firstAttribute="centerX" secondItem="6S3-vr-HYC" secondAttribute="centerX" id="I3z-yF-D24"/>
@@ -203,6 +217,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.063113369047641754" green="0.77347844839096069" blue="0.5310855507850647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="6S3-vr-HYC" secondAttribute="bottom" id="4Pn-u7-mzW"/>
@@ -219,7 +234,6 @@
                             <constraint firstItem="d3K-ig-S8A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="seP-RH-Ubc"/>
                             <constraint firstItem="nj3-nD-7UO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ycV-il-6HU"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="altView" destination="6S3-vr-HYC" id="VXx-To-9Eu"/>
@@ -236,11 +250,17 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Image" width="128" height="128"/>
         <image name="desk" width="64" height="64"/>
-        <image name="questionmark.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="questionmark.circle.fill" catalog="system" width="128" height="121"/>
         <image name="saksi" width="256" height="256"/>
         <image name="ship" width="50" height="50"/>
-        <image name="test" width="64" height="64"/>
         <image name="vitaminmenu" width="64" height="64"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
