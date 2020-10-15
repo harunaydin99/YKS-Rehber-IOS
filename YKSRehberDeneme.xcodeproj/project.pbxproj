@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		995ED8A22538D9D6008FB846 /* baloo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 995ED8A12538D9D6008FB846 /* baloo.ttf */; };
+		995ED8A42538DB67008FB846 /* msemi (1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 995ED8A32538DB67008FB846 /* msemi (1).ttf */; };
+		995ED8A62538DBF2008FB846 /* comfortaa_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 995ED8A52538DBF2008FB846 /* comfortaa_bold.ttf */; };
 		997F6C00253249BC00D948D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997F6BFF253249BC00D948D5 /* AppDelegate.swift */; };
 		997F6C02253249BC00D948D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997F6C01253249BC00D948D5 /* SceneDelegate.swift */; };
 		997F6C04253249BC00D948D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997F6C03253249BC00D948D5 /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		995ED8A12538D9D6008FB846 /* baloo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = baloo.ttf; path = ../../../../Downloads/baloo.ttf; sourceTree = "<group>"; };
+		995ED8A32538DB67008FB846 /* msemi (1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "msemi (1).ttf"; path = "../../../../Downloads/msemi (1).ttf"; sourceTree = "<group>"; };
+		995ED8A52538DBF2008FB846 /* comfortaa_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = comfortaa_bold.ttf; path = ../../../../Downloads/comfortaa_bold.ttf; sourceTree = "<group>"; };
 		997F6BFC253249BC00D948D5 /* YKSRehberDeneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKSRehberDeneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997F6BFF253249BC00D948D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		997F6C01253249BC00D948D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		995ED8A02538D9B1008FB846 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				995ED8A52538DBF2008FB846 /* comfortaa_bold.ttf */,
+				995ED8A32538DB67008FB846 /* msemi (1).ttf */,
+				995ED8A12538D9D6008FB846 /* baloo.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		997F6BF3253249BC00D948D5 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +115,7 @@
 		997F6BFE253249BC00D948D5 /* YKSRehberDeneme */ = {
 			isa = PBXGroup;
 			children = (
+				995ED8A02538D9B1008FB846 /* Fonts */,
 				997F6BFF253249BC00D948D5 /* AppDelegate.swift */,
 				997F6C01253249BC00D948D5 /* SceneDelegate.swift */,
 				997F6C03253249BC00D948D5 /* ViewController.swift */,
@@ -233,7 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				997F6C0C253249BD00D948D5 /* LaunchScreen.storyboard in Resources */,
+				995ED8A42538DB67008FB846 /* msemi (1).ttf in Resources */,
+				995ED8A62538DBF2008FB846 /* comfortaa_bold.ttf in Resources */,
 				997F6C09253249BD00D948D5 /* Assets.xcassets in Resources */,
+				995ED8A22538D9D6008FB846 /* baloo.ttf in Resources */,
 				997F6C07253249BC00D948D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

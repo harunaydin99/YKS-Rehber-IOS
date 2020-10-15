@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="baloo.ttf">
+            <string>Baloo-Regular</string>
+        </array>
+        <array key="comfortaa_bold.ttf">
+            <string>Comfortaa-Bold</string>
+        </array>
+        <array key="msemi (1).ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -21,76 +30,76 @@
                                 <rect key="frame" x="20" y="313" width="374" height="270"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="342" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="va6-z1-Hj4">
-                                        <rect key="frame" x="10" y="120" width="60" height="30.5"/>
+                                        <rect key="frame" x="10" y="106.5" width="60" height="57"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="wEA-7y-mxa"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="Baloo-Regular" family="Baloo" pointSize="36"/>
                                         <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="0.82852632705479456" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="04" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agi-u4-7oz">
-                                        <rect key="frame" x="110" y="117.5" width="60" height="35"/>
+                                        <rect key="frame" x="110" y="106.5" width="60" height="57"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="4jU-pG-XpI"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="29"/>
+                                        <fontDescription key="fontDescription" name="Baloo-Regular" family="Baloo" pointSize="36"/>
                                         <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="0.82852632705479456" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="04" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quU-Kp-jeh">
-                                        <rect key="frame" x="204" y="117.5" width="60" height="35"/>
+                                        <rect key="frame" x="204" y="106.5" width="60" height="57"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="En5-ak-pgk"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="29"/>
+                                        <fontDescription key="fontDescription" name="Baloo-Regular" family="Baloo" pointSize="36"/>
                                         <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="0.82852632705479456" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="35" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYZ-d5-9FU">
-                                        <rect key="frame" x="304" y="117.5" width="60" height="35"/>
+                                        <rect key="frame" x="304" y="106.5" width="60" height="57"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="3FN-Pw-9YW"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="29"/>
+                                        <fontDescription key="fontDescription" name="Baloo-Regular" family="Baloo" pointSize="36"/>
                                         <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="0.82852632705479456" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GÜN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzr-6U-2iZ">
-                                        <rect key="frame" x="21.5" y="160.5" width="37" height="21"/>
+                                        <rect key="frame" x="21.5" y="173.5" width="37" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAAT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0E-aD-SS6">
-                                        <rect key="frame" x="119" y="162.5" width="42" height="21"/>
+                                        <rect key="frame" x="119" y="173.5" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAKİKA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hls-iW-PwM">
-                                        <rect key="frame" x="204.5" y="162.5" width="59.5" height="21"/>
+                                        <rect key="frame" x="204.5" y="173.5" width="59.5" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SANİYE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsI-e2-sRx">
-                                        <rect key="frame" x="305" y="162.5" width="58.5" height="21"/>
+                                        <rect key="frame" x="305" y="173.5" width="58.5" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bugün yaşadığın sıkıntıların her biri senin yarınki gücün olacak!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17O-C6-peN">
-                                        <rect key="frame" x="70" y="209" width="302" height="41"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="70" y="216.5" width="302" height="33.5"/>
+                                        <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saksi" translatesAutoresizingMaskIntoConstraints="NO" id="2Ja-pR-rYJ">
-                                        <rect key="frame" x="2.5" y="185" width="75" height="75"/>
+                                        <rect key="frame" x="5" y="190" width="70" height="70"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="75" id="gZ9-vB-HFa"/>
-                                            <constraint firstAttribute="width" constant="75" id="m23-4H-2pH"/>
+                                            <constraint firstAttribute="height" constant="70" id="gZ9-vB-HFa"/>
+                                            <constraint firstAttribute="width" constant="70" id="m23-4H-2pH"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ship" translatesAutoresizingMaskIntoConstraints="NO" id="CQ3-Fv-jFj">
@@ -101,7 +110,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="17O-C6-peN" secondAttribute="bottom" constant="20" id="0xL-GJ-mzz"/>
                                     <constraint firstItem="bsI-e2-sRx" firstAttribute="centerX" secondItem="kYZ-d5-9FU" secondAttribute="centerX" id="24F-MD-cLN"/>
@@ -134,21 +143,21 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YKS Geri Sayım" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nj3-nD-7UO">
-                                <rect key="frame" x="115.5" y="54" width="183.5" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YKS Rehber" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nj3-nD-7UO">
+                                <rect key="frame" x="125.5" y="54" width="163" height="33"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="27"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O gün üzülmemek için bugün çalış!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9E-8Q-gMV">
-                                <rect key="frame" x="75" y="95.5" width="264.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="42" y="97" width="330.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionmark.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="nPe-jR-EOZ">
                                 <rect key="frame" x="364" y="44.5" width="50" height="49"/>
-                                <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="QKd-9E-zBm"/>
                                     <constraint firstAttribute="height" constant="50" id="VeA-mY-Eqj"/>
@@ -182,25 +191,25 @@
                                         <state key="normal" image="vitaminmenu"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Egzersiz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipy-Ym-gIn">
-                                        <rect key="frame" x="43" y="74" width="58" height="18"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <rect key="frame" x="41.5" y="74" width="61.5" height="16"/>
+                                        <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bilgi Köşesi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XlC-yG-chd">
-                                        <rect key="frame" x="168" y="74" width="78" height="18"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <rect key="frame" x="166" y="74" width="82" height="16"/>
+                                        <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vitamin Menü" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sH3-AN-gNP">
-                                        <rect key="frame" x="295" y="74" width="94" height="18"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <rect key="frame" x="291" y="74" width="102.5" height="16"/>
+                                        <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstItem="XlC-yG-chd" firstAttribute="centerX" secondItem="oJ6-hi-ZH2" secondAttribute="centerX" id="EAE-zc-INM"/>
                                     <constraint firstItem="oJ6-hi-ZH2" firstAttribute="centerX" secondItem="6S3-vr-HYC" secondAttribute="centerX" id="I3z-yF-D24"/>
@@ -216,24 +225,32 @@
                                     <constraint firstItem="oJ6-hi-ZH2" firstAttribute="top" secondItem="6S3-vr-HYC" secondAttribute="top" constant="5" id="tww-Zr-t7I"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sınav Günü 2021-06-20 10.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pOx-xR-Ll1">
+                                <rect key="frame" x="80.5" y="120.5" width="253.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.063113369047641754" green="0.77347844839096069" blue="0.5310855507850647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="6S3-vr-HYC" secondAttribute="bottom" id="4Pn-u7-mzW"/>
                             <constraint firstItem="d3K-ig-S8A" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5Di-A4-Ckv"/>
                             <constraint firstItem="J9E-8Q-gMV" firstAttribute="top" secondItem="nj3-nD-7UO" secondAttribute="bottom" constant="10" id="5ci-ne-Keh"/>
                             <constraint firstItem="nj3-nD-7UO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6bk-pe-Sj0"/>
+                            <constraint firstItem="pOx-xR-Ll1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9fn-Gc-0F8"/>
                             <constraint firstItem="nPe-jR-EOZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ha6-C0-MRQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nPe-jR-EOZ" secondAttribute="trailing" id="RD2-RR-Yvm"/>
                             <constraint firstItem="6S3-vr-HYC" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.18" id="RLI-4H-c1p"/>
                             <constraint firstItem="6S3-vr-HYC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RvQ-2w-Yei"/>
+                            <constraint firstItem="pOx-xR-Ll1" firstAttribute="top" secondItem="J9E-8Q-gMV" secondAttribute="bottom" constant="3" id="TSE-dm-lMK"/>
                             <constraint firstItem="6S3-vr-HYC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mTW-Fh-DDM"/>
                             <constraint firstItem="J9E-8Q-gMV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qwg-wo-SsH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d3K-ig-S8A" secondAttribute="trailing" constant="20" id="rlZ-AP-ayS"/>
                             <constraint firstItem="d3K-ig-S8A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="seP-RH-Ubc"/>
                             <constraint firstItem="nj3-nD-7UO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ycV-il-6HU"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="altView" destination="6S3-vr-HYC" id="VXx-To-9Eu"/>
@@ -246,21 +263,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+            <point key="canvasLocation" x="247.82608695652175" y="117.85714285714285"/>
         </scene>
     </scenes>
     <resources>
         <image name="Image" width="128" height="128"/>
         <image name="desk" width="64" height="64"/>
-        <image name="questionmark.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="questionmark.circle.fill" catalog="system" width="64" height="60"/>
         <image name="saksi" width="256" height="256"/>
         <image name="ship" width="50" height="50"/>
         <image name="vitaminmenu" width="64" height="64"/>
-        <systemColor name="groupTableViewBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
