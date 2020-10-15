@@ -18,34 +18,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var dakika: UILabel!
     @IBOutlet weak var saniye: UILabel!
     
-    let futureDate: Date = {
-        var future = DateComponents(
-            year: 2021,
-            month: 6,
-            day: 19,
-            hour: 10,
-            minute: 0,
-            second: 0
-        )
-        return Calendar.current.date(from: future)!
-    }()
+    
 
-    var countdown: DateComponents {
-        return Calendar.current.dateComponents([.day, .hour, .minute, .second], from: Date(), to: futureDate)
-    }
 
-    @objc func updateTime() {
-        var countdown = self.countdown //only compute once per call
-         //days = countdown.day!
-         //hours = countdown.hour!
-         //minutes = countdown.minute!
-         //seconds = countdown.second!
-       // countdownLabel.text = String(format: "%02d:%02d:%02d:%02d", days, hours, minutes, seconds)
-    }
-
-    func runCountdown() {
-        Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
-    }
     
     
     override func viewDidLoad() {
@@ -54,20 +29,50 @@ class ViewController: UIViewController {
         altView.layer.cornerRadius = 22
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
         
-        while countdown.day! >= 0 {
-            gun.text = "\(countdown.day!)"
-        }
-        while countdown.hour! >= 0 {
-            saat.text = "\(countdown.hour!)"
-        }
-        while countdown.minute! >= 0 {
-            dakika.text = "\(countdown.minute!)"
-        }
-        while countdown.second! >= 0 {
-            saniye.text = "\(countdown.second!)"
-        }
+        _ = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(hesapla), userInfo: nil, repeats: true)
     
         
+    }
+    
+    @objc func hesapla(){
+        // here we set the current date
+
+           let date = NSDate()
+           let calendar = Calendar.current
+
+        let components = calendar.dateComponents([.hour, .minute,.second, .month, .year, .day], from: date as Date)
+
+           let currentDate = calendar.date(from: components)
+
+           let userCalendar = Calendar.current
+
+           // here we set the due date. When the timer is supposed to finish
+           let competitionDate = NSDateComponents()
+           competitionDate.year = 2021
+           competitionDate.month = 6
+           competitionDate.day = 27
+           competitionDate.hour = 10
+           competitionDate.minute = 00
+           competitionDate.second=00
+           let competitionDay = userCalendar.date(from: competitionDate as DateComponents)!
+
+           //here we change the seconds to hours,minutes and days
+        let CompetitionDayDifference = calendar.dateComponents([.day, .hour, .minute, .second], from: currentDate!, to: competitionDay)
+
+
+           //finally, here we set the variable to our remaining time
+           let daysLeft = CompetitionDayDifference.day
+           let hoursLeft = CompetitionDayDifference.hour
+           let minutesLeft = CompetitionDayDifference.minute
+        let secondLeft = CompetitionDayDifference.second
+
+           //print("day:", daysLeft ?? "N/A", "hour:", hoursLeft ?? "N/A", "minute:", minutesLeft ?? "N/A")
+
+           //Set countdown label text
+        gun.text="\(daysLeft ?? 0)"
+        saat.text="\(hoursLeft ?? 0)"
+        dakika.text="\(minutesLeft ?? 0)"
+        saniye.text = "\(secondLeft ?? 0)"
     }
 
 
